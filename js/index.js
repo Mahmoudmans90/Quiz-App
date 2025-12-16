@@ -38,7 +38,7 @@ function declare_alert() {
     });
     if (language) {
       let res = await fetch(
-        "http://localhost/tadreeb/apis/html.php?page=" + language
+        "https://mahmoudmans90.github.io/Quiz-App/Apis/" + language + ".json"
       );
       quistions = await res.json();
 
