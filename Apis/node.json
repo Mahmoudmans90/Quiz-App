@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is Node.js?",
+        "incorrectAnswers": [
+            "A front-end JavaScript framework",
+            "A relational database system",
+            "A programming language"
+        ],
+        "correctAnswer": "Node.js is a JavaScript runtime built on Chrome's V8 engine"
+    },
+    {
+        "question": "Which of the following is the default package manager for Node.js?",
+        "incorrectAnswers": [
+            "yarn",
+            "pnpm",
+            "bower"
+        ],
+        "correctAnswer": "npm"
+    },
+    {
+        "question": "Which built-in Node.js module is used to create a web server?",
+        "incorrectAnswers": [
+            "fs",
+            "url",
+            "path"
+        ],
+        "correctAnswer": "http"
+    },
+    {
+        "question": "Which command is used to initialize a new Node.js project?",
+        "incorrectAnswers": [
+            "node init",
+            "npm create",
+            "node start"
+        ],
+        "correctAnswer": "npm init"
+    },
+    {
+        "question": "Which object in Node.js is used to handle events?",
+        "incorrectAnswers": [
+            "EventHandler",
+            "EventsCore",
+            "NodeEvents"
+        ],
+        "correctAnswer": "EventEmitter"
+    },
+    {
+        "question": "Which method is used to read files asynchronously in Node.js?",
+        "incorrectAnswers": [
+            "fs.read()",
+            "fs.readData()",
+            "fs.openFile()"
+        ],
+        "correctAnswer": "fs.readFile()"
+    },
+    {
+        "question": "What is the default file extension for a Node.js module?",
+        "incorrectAnswers": [
+            ".json",
+            ".txt",
+            ".html"
+        ],
+        "correctAnswer": ".js"
+    },
+    {
+        "question": "Which keyword is used to import a module in Node.js (CommonJS)?",
+        "incorrectAnswers": [
+            "import",
+            "include",
+            "use"
+        ],
+        "correctAnswer": "require"
+    },
+    {
+        "question": "Which global object in Node.js is used to print output to the console?",
+        "incorrectAnswers": [
+            "print",
+            "echo",
+            "log"
+        ],
+        "correctAnswer": "console"
+    },
+    {
+        "question": "Which Node.js framework is most commonly used to build RESTful APIs?",
+        "incorrectAnswers": [
+            "NestJS",
+            "Hapi.js",
+            "Koa.js"
+        ],
+        "correctAnswer": "Express.js"
+    }
+]

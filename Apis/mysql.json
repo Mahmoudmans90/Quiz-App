@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What does SQL stand for?",
+        "incorrectAnswers": [
+            "Structured Question Language",
+            "Sequential Query Logic",
+            "Simple Query Language"
+        ],
+        "correctAnswer": "Structured Query Language"
+    },
+    {
+        "question": "Which command is used to create a new database in MySQL?",
+        "incorrectAnswers": [
+            "MAKE DATABASE dbname;",
+            "ADD DATABASE dbname;",
+            "NEW DATABASE dbname;"
+        ],
+        "correctAnswer": "CREATE DATABASE dbname;"
+    },
+    {
+        "question": "Which MySQL command is used to select data from a database?",
+        "incorrectAnswers": [
+            "EXTRACT",
+            "SHOW",
+            "GET"
+        ],
+        "correctAnswer": "SELECT"
+    },
+    {
+        "question": "Which SQL clause is used to filter the results?",
+        "incorrectAnswers": [
+            "SORT BY",
+            "FILTER",
+            "ORDER BY"
+        ],
+        "correctAnswer": "WHERE"
+    },
+    {
+        "question": "Which SQL keyword is used to sort the result-set?",
+        "incorrectAnswers": [
+            "SORT",
+            "FILTER BY",
+            "RANK BY"
+        ],
+        "correctAnswer": "ORDER BY"
+    },
+    {
+        "question": "What is the default port number of MySQL?",
+        "incorrectAnswers": [
+            "1521",
+            "27017",
+            "1433"
+        ],
+        "correctAnswer": "3306"
+    },
+    {
+        "question": "Which function is used to return the number of rows in MySQL?",
+        "incorrectAnswers": [
+            "SUM()",
+            "MAX()",
+            "TOTAL()"
+        ],
+        "correctAnswer": "COUNT()"
+    },
+    {
+        "question": "Which JOIN returns all rows when there is a match in one of the tables?",
+        "incorrectAnswers": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN"
+        ],
+        "correctAnswer": "FULL OUTER JOIN"
+    },
+    {
+        "question": "Which MySQL statement is used to add a new row of data?",
+        "incorrectAnswers": [
+            "APPEND INTO",
+            "INSERT NEW",
+            "ADD ROW"
+        ],
+        "correctAnswer": "INSERT INTO"
+    },
+    {
+        "question": "Which statement is used to remove a table and all its data in MySQL?",
+        "incorrectAnswers": [
+            "REMOVE TABLE table_name;",
+            "DELETE table_name;",
+            "CLEAR TABLE table_name;"
+        ],
+        "correctAnswer": "DROP TABLE table_name;"
+    }
+]

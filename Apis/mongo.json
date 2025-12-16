@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is MongoDB?",
+        "incorrectAnswers": [
+            "A relational database management system",
+            "A programming language",
+            "A cloud storage provider"
+        ],
+        "correctAnswer": "MongoDB is a NoSQL document-oriented database"
+    },
+    {
+        "question": "Which of the following is the default data format used by MongoDB?",
+        "incorrectAnswers": [
+            "XML",
+            "CSV",
+            "YAML"
+        ],
+        "correctAnswer": "BSON (Binary JSON)"
+    },
+    {
+        "question": "Which method is used to insert a single document in MongoDB?",
+        "incorrectAnswers": [
+            "db.collection.addOne()",
+            "db.collection.push()",
+            "db.collection.insertAll()"
+        ],
+        "correctAnswer": "db.collection.insertOne()"
+    },
+    {
+        "question": "Which command is used to show all databases in MongoDB?",
+        "incorrectAnswers": [
+            "show collections",
+            "db.showAll()",
+            "list databases"
+        ],
+        "correctAnswer": "show dbs"
+    },
+    {
+        "question": "Which function is used to update a document in MongoDB?",
+        "incorrectAnswers": [
+            "db.collection.modify()",
+            "db.collection.changeOne()",
+            "db.collection.updateDoc()"
+        ],
+        "correctAnswer": "db.collection.updateOne()"
+    },
+    {
+        "question": "What is the default port number for MongoDB?",
+        "incorrectAnswers": [
+            "27015",
+            "8080",
+            "3000"
+        ],
+        "correctAnswer": "27017"
+    },
+    {
+        "question": "Which method is used to remove a document in MongoDB?",
+        "incorrectAnswers": [
+            "db.collection.removeOne()",
+            "db.collection.deleteDoc()",
+            "db.collection.destroy()"
+        ],
+        "correctAnswer": "db.collection.deleteOne()"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What does PHP stand for?",
+        "incorrectAnswers": [
+            "Personal Home Processor",
+            "Private Hypertext Processor",
+            "Programming Hypertext Pages"
+        ],
+        "correctAnswer": "PHP: Hypertext Preprocessor"
+    },
+    {
+        "question": "Which symbol is used to start a variable in PHP?",
+        "incorrectAnswers": [
+            "#",
+            "%",
+            "&"
+        ],
+        "correctAnswer": "$"
+    },
+    {
+        "question": "Which function is used to output text in PHP?",
+        "incorrectAnswers": [
+            "echoText()",
+            "printLine()",
+            "out()"
+        ],
+        "correctAnswer": "echo"
+    },
+    {
+        "question": "Which of the following is the correct way to start a PHP block?",
+        "incorrectAnswers": [
+            "<script>",
+            "<?php?>",
+            "<php>"
+        ],
+        "correctAnswer": "<?php"
+    },
+    {
+        "question": "Which function is used to include and evaluate a file in PHP?",
+        "incorrectAnswers": [
+            "import()",
+            "require_once()",
+            "use()"
+        ],
+        "correctAnswer": "include()"
+    },
+    {
+        "question": "Which superglobal variable is used to collect form data sent with POST method?",
+        "incorrectAnswers": [
+            "$_GET",
+            "$_SESSION",
+            "$_COOKIE"
+        ],
+        "correctAnswer": "$_POST"
+    },
+    {
+        "question": "Which function is used to connect to a MySQL database in modern PHP?",
+        "incorrectAnswers": [
+            "mysql_connect()",
+            "db_connect()",
+            "mysqli_database()"
+        ],
+        "correctAnswer": "mysqli_connect() or PDO"
+    },
+    {
+        "question": "Which operator is used for string concatenation in PHP?",
+        "incorrectAnswers": [
+            "+",
+            "&&",
+            "||"
+        ],
+        "correctAnswer": "."
+    },
+    {
+        "question": "Which of the following is true about PHP arrays?",
+        "incorrectAnswers": [
+            "They can only store numbers",
+            "They must be declared with a fixed size",
+            "They cannot store different data types"
+        ],
+        "correctAnswer": "They can store multiple values of different data types"
+    },
+    {
+        "question": "What will '===’ operator check in PHP?",
+        "incorrectAnswers": [
+            "Only value equality",
+            "Only type equality",
+            "Greater than comparison"
+        ],
+        "correctAnswer": "Both value and type equality"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is the difference between var, let, and const?",
+        "incorrectAnswers": [
+            "They are exactly the same",
+            "Only var can be used inside functions",
+            "const can be reassigned like let"
+        ],
+        "correctAnswer": "var is function-scoped, let and const are block-scoped, and const cannot be reassigned"
+    },
+    {
+        "question": "What does typeof null return, and why?",
+        "incorrectAnswers": [
+            "object because null is an object",
+            "null because typeof always matches the value",
+            "undefined because null has no value"
+        ],
+        "correctAnswer": "It returns 'object' because of a legacy bug in JavaScript"
+    },
+    {
+        "question": "How does hoisting work in JavaScript?",
+        "incorrectAnswers": [
+            "Only functions are hoisted, not variables",
+            "Variables are fully initialized before code runs",
+            "Nothing is hoisted in JavaScript"
+        ],
+        "correctAnswer": "Variable and function declarations are hoisted to the top of their scope, but variables are not initialized"
+    },
+    {
+        "question": "What is the difference between == and ===?",
+        "incorrectAnswers": [
+            "They are identical operators",
+            "== checks type, === does not",
+            "=== allows type coercion"
+        ],
+        "correctAnswer": "== checks for equality with type coercion, while === checks for strict equality without coercion"
+    },
+    {
+        "question": "What is a closure in JavaScript?",
+        "incorrectAnswers": [
+            "A way to close a function after execution",
+            "A built-in method for looping arrays",
+            "A special type of class in JavaScript"
+        ],
+        "correctAnswer": "A closure is a function that remembers variables from its lexical scope even when called outside that scope"
+    },
+    {
+        "question": "What is the difference between synchronous and asynchronous code?",
+        "incorrectAnswers": [
+            "Synchronous code always runs faster",
+            "Asynchronous code blocks the main thread",
+            "Synchronous code cannot be written in JavaScript"
+        ],
+        "correctAnswer": "Synchronous code executes line by line, blocking further execution, while asynchronous code allows non-blocking operations"
+    },
+    {
+        "question": "What is the event loop in JavaScript?",
+        "incorrectAnswers": [
+            "A built-in function for iterating arrays",
+            "A loop that runs infinitely inside JavaScript code",
+            "A debugging tool for event listeners"
+        ],
+        "correctAnswer": "It is the mechanism that handles execution of synchronous code, microtasks (Promises), and macrotasks (setTimeout, setInterval)"
+    }
+]

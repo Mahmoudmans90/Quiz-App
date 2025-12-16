@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "incorrectAnswers": [
+            "Hyperlink and Text Management Language",
+            "HighText Machine Language",
+            "Home Tool Markup Language"
+        ],
+        "correctAnswer": "HyperText Markup Language"
+    },
+    {
+        "question": "Which HTML tag is used to define the largest heading?",
+        "incorrectAnswers": [
+            "<heading>",
+            "<h6>",
+            "<head>"
+        ],
+        "correctAnswer": "<h1>"
+    },
+    {
+        "question": "Which HTML element is used to define a paragraph?",
+        "incorrectAnswers": [
+            "<para>",
+            "<pgraph>",
+            "<text>"
+        ],
+        "correctAnswer": "<p>"
+    },
+    {
+        "question": "Which attribute is used to provide a unique identifier to an HTML element?",
+        "incorrectAnswers": [
+            "class",
+            "name",
+            "style"
+        ],
+        "correctAnswer": "id"
+    },
+    {
+        "question": "Which tag is used to create a hyperlink in HTML?",
+        "incorrectAnswers": [
+            "<link>",
+            "<href>",
+            "<a href>"
+        ],
+        "correctAnswer": "<a>"
+    },
+    {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "incorrectAnswers": [
+            "<lb>",
+            "<break>",
+            "<brk>"
+        ],
+        "correctAnswer": "<br>"
+    },
+    {
+        "question": "Which HTML tag is used to display an image?",
+        "incorrectAnswers": [
+            "<picture>",
+            "<src>",
+            "<image>"
+        ],
+        "correctAnswer": "<img>"
+    },
+    {
+        "question": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?",
+        "incorrectAnswers": [
+            "title",
+            "longdesc",
+            "src"
+        ],
+        "correctAnswer": "alt"
+    },
+    {
+        "question": "Which HTML tag is used to create an unordered list?",
+        "incorrectAnswers": [
+            "<ol>",
+            "<list>",
+            "<ulist>"
+        ],
+        "correctAnswer": "<ul>"
+    },
+    {
+        "question": "Which doctype declaration is correct for HTML5?",
+        "incorrectAnswers": [
+            "<!DOCTYPE HTML PUBLIC>",
+            "<!DOCTYPE HTML SYSTEM>",
+            "<!DOCTYPE HTML 4.01>"
+        ],
+        "correctAnswer": "<!DOCTYPE html>"
+    }
+]

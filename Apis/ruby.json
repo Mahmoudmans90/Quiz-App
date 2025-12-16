@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is Ruby?",
+        "incorrectAnswers": [
+            "A database management system",
+            "A markup language",
+            "An operating system"
+        ],
+        "correctAnswer": "Ruby is a dynamic, interpreted, object-oriented programming language"
+    },
+    {
+        "question": "Which symbol is used to define a variable in Ruby?",
+        "incorrectAnswers": [
+            "&",
+            "#",
+            "%"
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "question": "How do you define a method in Ruby?",
+        "incorrectAnswers": [
+            "function myMethod {}",
+            "def: myMethod()",
+            "method myMethod() end"
+        ],
+        "correctAnswer": "def myMethod ... end"
+    },
+    {
+        "question": "Which of the following is used to print output in Ruby?",
+        "incorrectAnswers": [
+            "echo",
+            "console.log",
+            "write()"
+        ],
+        "correctAnswer": "puts"
+    },
+    {
+        "question": "Which of the following is true about Ruby arrays?",
+        "incorrectAnswers": [
+            "They can only store numbers",
+            "They must have fixed length",
+            "They cannot contain different types of elements"
+        ],
+        "correctAnswer": "They can store elements of mixed data types"
+    },
+    {
+        "question": "What will '5 == \"5\"' return in Ruby?",
+        "incorrectAnswers": [
+            "true",
+            "undefined",
+            "error"
+        ],
+        "correctAnswer": "false"
+    },
+    {
+        "question": "Which keyword is used to create a class in Ruby?",
+        "incorrectAnswers": [
+            "object",
+            "function",
+            "define"
+        ],
+        "correctAnswer": "class"
+    },
+    {
+        "question": "Which method is automatically called when a new object is created in Ruby?",
+        "incorrectAnswers": [
+            "create()",
+            "start()",
+            "begin()"
+        ],
+        "correctAnswer": "initialize"
+    },
+    {
+        "question": "Which symbol is used to define an instance variable in Ruby?",
+        "incorrectAnswers": [
+            "#",
+            "!",
+            "%"
+        ],
+        "correctAnswer": "@"
+    },
+    {
+        "question": "Which framework is built on Ruby for web development?",
+        "incorrectAnswers": [
+            "Django",
+            "Laravel",
+            "Spring"
+        ],
+        "correctAnswer": "Ruby on Rails"
+    }
+]

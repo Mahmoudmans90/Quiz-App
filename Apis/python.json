@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is Python?",
+        "incorrectAnswers": [
+            "A markup language",
+            "A database management system",
+            "A low-level programming language"
+        ],
+        "correctAnswer": "Python is a high-level, interpreted programming language"
+    },
+    {
+        "question": "Which symbol is used for comments in Python?",
+        "incorrectAnswers": [
+            "//",
+            "<!-- -->",
+            "/* */"
+        ],
+        "correctAnswer": "#"
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "incorrectAnswers": [
+            "List",
+            "Dictionary",
+            "Set"
+        ],
+        "correctAnswer": "Tuple"
+    },
+    {
+        "question": "Which function is used to display output in Python?",
+        "incorrectAnswers": [
+            "echo()",
+            "write()",
+            "printline()"
+        ],
+        "correctAnswer": "print()"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "incorrectAnswers": [
+            "func",
+            "function",
+            "method"
+        ],
+        "correctAnswer": "def"
+    },
+    {
+        "question": "What is the output of len('Python')?",
+        "incorrectAnswers": [
+            "5",
+            "4",
+            "8"
+        ],
+        "correctAnswer": "6"
+    },
+    {
+        "question": "Which of the following is used to define a block of code in Python?",
+        "incorrectAnswers": [
+            "Braces {}",
+            "Parentheses ()",
+            "Semicolons ;"
+        ],
+        "correctAnswer": "Indentation"
+    },
+    {
+        "question": "Which of these is not a core data type in Python?",
+        "incorrectAnswers": [
+            "List",
+            "Dictionary",
+            "Tuple"
+        ],
+        "correctAnswer": "Class"
+    },
+    {
+        "question": "Which operator is used for floor division in Python?",
+        "incorrectAnswers": [
+            "/",
+            "%",
+            "*"
+        ],
+        "correctAnswer": "//"
+    },
+    {
+        "question": "Which statement is used to handle exceptions in Python?",
+        "incorrectAnswers": [
+            "catch",
+            "exception",
+            "try-catch"
+        ],
+        "correctAnswer": "try-except"
+    }
+]
