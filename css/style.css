@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #9d2deb;
+  --secondery: #c9d6df;
+  --success: #d76133;
+  --danger: #fb2933;
+  --warning: #4bbe5a;
+  --info: #f7f58d;
+}
+.text-088cb3 {
+  color: #088cb3;
+}
+.text-secondary {
+  color: var(--secondery) !important;
+}
+.background-linear-white {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.bg-secondery {
+  background-color: #d8dfeb76 !important;
+}
+.bg-white {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+.shadow-ours {
+  box-shadow: rgba(238, 227, 234, 0.4) 5px 5px,
+    rgba(122, 119, 121, 0.3) 10px 10px, rgba(88, 87, 87, 0.2) 15px 15px,
+    rgba(31, 27, 30, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.answer {
+  transition: all 0.3s ease;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.answer:hover {
+  background-color: #088cb3 !important;
+  color: #fff !important;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: inline-block !important;
+}
+.parent {
+  transition: all 0.3s ease;
+}
+
+.parent:hover .answer:not(:hover, .active) {
+  background-color: #df7d823f !important;
+}
+.timer {
+  height: 10px;
+}
+.card {
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .w-sm-100 {
+    width: 95% !important;
+  }
+  .p-sm-2 {
+    padding: 2px !important;
+  }
+  .px-sm-2 {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+.active {
+  background-color: #088cb3 !important;
+  color: #fff !important;
+}
+
+.inActivee {
+  background: #2b0ecb63;
+  color: #222;
+  cursor: not-allowed;
+}
+.bg-success {
+  background-color: #abff23 !important;
+}
+.wrong_answer {
+  background-color: #b33b085a;
+}
